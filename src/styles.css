@@ -1,0 +1,41 @@
+body,
+html {
+  height: 100;
+  margin: 0;
+  background: url(bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+
+  font-family: "Mountains of Christmas";
+  font-size: 22px;
+}
+
+.answer {
+  background: url(../bg.jpg) no-repeat center fixed;
+  height: 100%;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  position: absolute;
+  text-align: center;
+  font-size: 46px;
+}
+
+.App {
+  text-align: center;
+  color: white;
+}
+.row {
+  margin-bottom: 0.5em;
+}
+.input-group-text {
+  border-radius: 0;
+}
+.btn-secondary {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
